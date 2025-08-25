@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 350px;
+    height: 200px;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.card-header {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left-side {
+    display: flex;
+    gap: 10px;
+}
+.card-header .header-logo {
+    width: 48px;
+}
+
+.card-header .header-chip {
+    width: 50px;
+    /* height: 25px; */
+}
+
+.card-header h5 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.card-hero {
+    color: white;
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.card-hero h3 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.card-hero h5 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.card-footer .name {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-footer .card-bottom-left h5{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-footer .card-bottom-left h3{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
